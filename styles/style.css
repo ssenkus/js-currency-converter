@@ -1,0 +1,59 @@
+			/* place this codeblock into your stylesheet for best practices */
+			/* verbose IDs used to avoid conflict with current CSS styles */
+			/* START CSS */
+			#currencyConverter {
+				width: 300px;
+				margin: 20px auto;
+				padding: 0px;    
+				overflow: hidden;    
+				background-color: #fafafa;
+				border: 1px solid #000;
+				border-radius: 10px;
+				text-align: center;
+				font-size: 12px;
+				font-family: Arial, Helvetica, sans-serif;
+			}
+
+			#currencyConverter label {
+				display: inline-block;
+				width: 50px;
+				text-align: right;
+				padding: 0 5px 0 0;
+			}
+
+			#currencyConverter h2,
+			#currencyConverter h3 {
+				margin: 0 0 5px 0;
+				font-size: 20px;
+				background-color: #77e;
+				text-shadow: -1px 1px 0px #fff;
+				padding: 2px;
+			}
+			#currencyConverter h3 {
+				font-size: 16px;
+				margin: 5px 0 0 0;
+			}
+
+			#currencyConverter pre {
+				background-color: #dadada;
+				font-weight: bold;
+				text-align: left;
+				padding: 5px 0 5px 75px;
+				margin: 0;
+				
+			}
+			#currencyConverterFooter {
+				background-color: #7d7;
+			}
+			#currencyConverterFooter p {
+				 margin: 0;
+				font-size:10px;
+				padding: 2px;
+			}
+
+			#currencyConverterFooter p:last-child {
+				background-color: #000;
+				color: #fff;
+			}
+			
+		/* END CSS */

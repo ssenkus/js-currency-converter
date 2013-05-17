@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>JS + jQuery Currency Conversion Calculator </title>
+		<link rel="stylesheet" href="styles/style.css" />
+	</head>
+	<body>
+		<div id="currencyConverter">
+			<h2>Currency Converter</h2>
+			<label for="USD">USD</label><input class="currency" id="USD" type="text" value="" /><br />
+			<label for="CAD">CAD</label><input class="currency" id="CAD" type="text" value="" /><br />
+			<label for="EUR">EUR</label><input class="currency" id="EUR" type="text" value="" /><br />
+			<label for="JPY">JPY</label><input class="currency" id="JPY" type="text" value="" /><br />
+			<div id="currentRates">
+				<h3>Current Exchange Rates (base: USD)</h3>
+				<pre></pre>
+			</div>
+			<div id="currencyConverterFooter">
+				<p>Currency exchange rates provided by <br /> <a href="http://openexchangerates.org/" target="_blank">The Open Exchange Rates API </a></p>
+				<p>Put this converter on your site! Click <a href="http://jsfiddle.net/ssenkus/UpRC6/" target="_blank">here</a> for the code!</p>
+			</div>
+		</div>
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+		<script type="text/javascript" src="scripts/cur-convert.js"></script>
+	</body>
+</html>
