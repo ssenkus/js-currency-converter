@@ -2,7 +2,7 @@ var curRates = {};
 // add/remove currencies from this array as needed; 
 var curNames = ["USD", "CAD", "JPY", "EUR", "CDF", "BAM"];
 						var text = '';
-						for ( x = 0; x < curNames.length; x++) {
+						for (var x = 0; x < curNames.length; x++) {
 							text += '<label for="'+ curNames[x] +'">' + curNames[x] + '</label><input class="currency" id="'+curNames[x]  +'" type="text" value="" /><br />';
 						}
 document.write('<div id="currencyConverter">' + 
